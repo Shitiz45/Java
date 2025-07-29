@@ -1,6 +1,5 @@
 package OOPs.mypackage;
 
-
 public class Main {
     public static void main(String[] args) {
         // creating object of student class
@@ -8,6 +7,7 @@ public class Main {
         st1.studentId = 123;
         st1.studentCity = "Delhi";
         st1.studentName = "Ram";
+        st1.marks = 85;
 
         st1.study();
 
