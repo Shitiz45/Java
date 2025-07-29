@@ -5,6 +5,7 @@ public class Student { // made public
     int studentId;
     String studentName;
     String studentCity;
+    int marks;
 
     public void study() {
         System.out.println(studentName + " is studying");
@@ -14,5 +15,6 @@ public class Student { // made public
         System.out.println("Student name is " + studentName);
         System.out.println("Student ID is " + studentId);
         System.out.println("Student lives in " + studentCity);
+        System.out.println("Marks obtained: " + marks);
     }
 }
